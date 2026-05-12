@@ -11,3 +11,5 @@ Format URL `guest:guest@localhost:5672` adalah *connection string* standar yang 
 - **`localhost:5672`**: Menunjukkan lokasi server dan port jaringan.
   - **`localhost`**: Merupakan alamat *host* tempat server *message broker* berjalan. `localhost` berarti server tersebut berjalan di komputer lokal kita sendiri (IP `127.0.0.1`).
   - **`5672`**: Merupakan *port default* yang digunakan oleh protokol AMQP (khususnya RabbitMQ) untuk mendengarkan dan menerima koneksi masuk dari *publisher* maupun *subscriber*.
+
+![Simulation slow subscriber](image.png)
